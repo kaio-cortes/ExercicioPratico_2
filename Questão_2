@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela de Produtos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="tabela-container">
+    <h2>Tabela de Produtos</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Preço (R$)</th>
+          <th>Categoria</th>
+          <th>Descrição</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Notebook</td>
+          <td>3.500,00</td>
+          <td>Informática</td>
+          <td>Computador portátil com 8GB de RAM e 256GB SSD</td>
+        </tr>
+        <tr>
+          <td>Smartphone</td>
+          <td>2.200,00</td>
+          <td>Telefonia</td>
+          <td>Celular com câmera de 48MP e 128GB de armazenamento</td>
+        </tr>
+        <tr>
+          <td>Monitor</td>
+          <td>800,00</td>
+          <td>Informática</td>
+          <td>Monitor de 24 polegadas com resolução Full HD</td>
+        </tr>
+        <tr>
+          <td>Teclado</td>
+          <td>250,00</td>
+          <td>Acessórios</td>
+          <td>Teclado mecânico com iluminação RGB</td>
+        </tr>
+        <tr>
+          <td>Mouse</td>
+          <td>120,00</td>
+          <td>Acessórios</td>
+          <td>Mouse sem fio com sensor óptico de alta precisão</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 30px;
+}
+
+.tabela-container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Zebra effect */
+}
+
+tbody tr:hover {
+  background-color: #e0f7e9;
+}
