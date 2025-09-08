@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaio Côrtes - Página Pessoal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="profile-image"></div>
+    
+    <h1>Kaio Côrtes</h1>
+    <h2>Estudante de Sistemas de Informação</h2>
+    
+    <p class="matricula"><strong>Matrícula:</strong> 202502281943</p>
+    
+    <p>
+      Olá! Meu nome é Kaio e sou estudante de Sistemas de Informação. Sou apaixonado por tecnologia e estou sempre em busca de novos aprendizados na área de desenvolvimento de software. Meu objetivo profissional é atuar como desenvolvedor full stack, contribuindo com soluções eficientes e inovadoras para empresas e usuários.
+    </p>
+    
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+    </div>
+
+    <div class="links">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Portfólio</a>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 20px;
+  background-color: #ccc;
+  border-radius: 50%;
+  border: 4px solid #4CAF50;
+}
+
+h1 {
+  color: #4CAF50;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #555;
+  margin-top: 0;
+}
+
+.matricula {
+  color: #333;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.skills span {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.links a {
+  margin: 0 10px;
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
